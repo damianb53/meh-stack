@@ -1,0 +1,22 @@
+{
+    "name": "meh-stack",
+    "version": "1.0.0",
+    "description": "MySQL/MariaDB + ExpressJS + HTMX",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "ejs": "^3.1.9",
+        "express": "^4.18.2",
+        "express-ejs-layouts": "^2.5.1",
+        "mysql2": "^3.6.5"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}

@@ -1,0 +1,9 @@
+<form action="/login" method="post">
+    <input type="email" name="email" id="email" />
+    <input type="password" name="password" id="password" />
+    <input type="submit" value="Login" />
+</form>
+<% if(typeof credentialsMatch !== 'undefined' && credentialsMatch === false) {
+%>
+<p>Cretendials do not match!</p>
+<% } %>
